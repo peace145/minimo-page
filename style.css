@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	padding: 50px 0px;
+	display: flow-root;
+}
+.nav-bar{
+	width: 100%;
+	float: left;
+}
+.logo{
+	width: 25%;
+	float: left;
+}
+.menu{
+	width: 75%;
+	float: right;
+	text-align: right;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+.menu ul li a{
+	font-family: 'Playfair Display', serif;
+	color: #c0c0c0;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.menu ul li a:hover{
+	color: black;
+}
+.main-post{
+	width: 100%;
+	display: flow-root;
+}
+.description{
+	padding: 70px;
+}
+.description h4, .left h4, .right h4{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	color: #c0c0c0;
+}
+.description h1, .left h1, .right h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: #b0b0b0;
+	margin: 20px 0px;
+}
+.description p, .left p, .right p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.description a{
+		font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+	color: #c0c0c0;
+
+}
+.post{
+	width: 100%;
+	display: flow-root;
+}
+.gallary{
+	width: 90%;
+	float: left;
+	padding: 70px;
+}
+.left{
+	width: 50%;
+	float: left;
+}
+.right{
+	width: 50%;
+	float: left;
+}
+.extra{
+	padding-right: 20px;
+}
+.left h4, .right h4{
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	color: #c0c0c0;
+	margin-top: 20px;
+	font-weight: 300;
+}
+.left h1, .right h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	color: #b0b0b0;
+	margin: 20px 0px;
+}
+.left p, .right p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.newsletter{
+	width: 100%;
+	background-color: #f0f0f0;
+	display: flow-root;
+	padding: 40px 0px;
+}
+.subscribe{
+	text-align: center;
+}
+.subscribe h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	margin: 30px 0px;
+}
+.subscribe input{
+	width: 30%;
+	padding: 15px 0px;
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+}
+.subscribe input::placeholder{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	color: black;
+}
+.subscribe input:focus{
+	outline:none;
+}
+.load{
+	width: 100%;
+	padding: 100px 0px;
+}
+.load-btn{
+	border:1px solid #f0f0f0;
+	text-align: center;
+
+}
+button{
+	color: black;
+	padding: 20px;
+}
+footer{
+	width: 100%;
+	padding: 50px 0px;
+	display: flow-root;
+}
+.left-footer{
+	width: 50%;
+	float: left;
+}
+.right-footer{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.left-footer ul li, .right-footer ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 60px;
+}
+.left-footer ul li a{
+	font-family: 'Playfair Display', serif;
+	color: black;
+	font-size: 16px;
+}
+.right-footer ul li a{
+	color: black;
+}
